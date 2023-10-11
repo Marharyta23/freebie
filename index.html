@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>Pryvit!</h1>
+    <header class="header container">
+        <a class="header-logo" href="./index.html">logo</a>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="header-item">
+                    <a class="header-nav-link" href="">Home</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-nav-link" href="">About Us</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-nav-link" href="">Services</a>
+                </li>
+                <li class="header-item">
+                    <a class="header-nav-link" href="">Blogs</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header-btn" type="button">Gift Finder</button>
+    </header>
+    <section class="container section-one">
+        <div class="photo-wrapper">
+            <div class="sect-one-wrapper-one">
+                <h1 class="main-title">
+                    Find a gift for your wife or girlfriend
+                </h1>
+                <p class="section-one-text">
+                    Struggling to find a gift for your wife or girlfriend?
+    No problem!
+                </p>
+                <button class="button" type="button">
+                    Find gift now
+                </button>
+            </div>
+            <img src="./images/Background.jpg" alt="happy family" width="719" height="700" class="sect-one-image">
+        </div>
+        <div class="photo-wrapper-two">
+            <img src="./images/Media Background.jpg" alt="thanks card" width="721" height="600" class="sect-one-image">
+            <div class="sect-one-wrapper-two">
+                <h2 class="sect-one-title">
+                    How we work
+                </h2>
+                <p class="sect-one-text-two">
+                    We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.
+                </p>
+                <a class="sect-one-learn" href="">Learn More</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
