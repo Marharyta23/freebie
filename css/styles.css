@@ -183,6 +183,9 @@ address {
     flex-direction: column;
     padding-top: 164px;
     padding-left: 113px;
+    background-color: #fafafa;
+    width: 719px;
+    height: 600px;
 }
 .sect-one-title {
     color: #000;
@@ -219,4 +222,312 @@ address {
 .sect-one-learn:focus {
     color:#fff;
     background-color: #F7941E;
+}
+
+/* ---------SECTION TWO--------- */
+
+.container {
+}
+
+.sect-two-container {
+    padding: 96px 135px 137px 135px;
+    background-color: #FFF;
+}
+
+.section-two-title {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.22;
+    margin-bottom: 23px;
+}
+
+.section-two-text {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.36;
+    margin-bottom: 57px;
+}
+
+.section-two-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.section-two-item {
+}
+.section-two-image {
+}
+
+.sect-two-wrap {
+    width: 270px;
+    height: 166px;
+    background-color: #FAFAFA;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.section-two-item .first-item {
+    background-color: #FFF;
+    margin-left: 135px;
+}
+.section-two-subtitle {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 74px;
+}
+.section-two-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.36;
+}
+.section-two-link:hover,
+.section-two-link:focus {
+    color: #F7941E;
+}
+/* ---------SECTION THREE--------- */
+
+.container {
+}
+.section-three {
+    background-color: #F7941E;
+    padding: 81px 235px 69px 235px;
+    display: inline-flex;
+    gap: 229px;
+}
+.section-three-wrap-one {
+    display: block;
+}
+.section-three-title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.41;
+}
+.section-three-text {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.41;
+}
+.section-three-wrap-two {
+    display: inline-flex;
+    gap: 16px;
+    align-items: center;
+}
+.section-three-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background: #231F20;
+    border: none;
+}
+.section-three-link {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.35;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #000;
+    line-height: 1.39;
+    padding: 13px 33.415px 13.5px 34.415px;
+}
+.section-three-button:hover,
+.section-three-button:focus {
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+}
+.section-three-link:hover,
+.section-three-link:focus {
+    color: #FFF;
+    background: #231F20;
+}
+/* ---------SECTION FOUR--------- */
+
+.section-four {
+    padding-left: 135px;
+}
+.section-four-title {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 88px;
+    margin-bottom: 23px;
+}
+.section-four-title-text {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.36;
+    margin-bottom: 71px;
+}
+.section-four-wrap-one {
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+.section-four-image {
+}
+.section-four-wrap-two {
+    width: 770px;
+    height: 370px;
+    padding: 63px 200px 49px 78px;
+    display: block;
+    background-color: #231F20;
+}
+.sect-four-wrap-two-name {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.41;
+    margin-bottom: 27px;
+}
+.sect-four-wrap-two-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.sect-four-wrap-two-link {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.41; 
+}
+.sect-four-wrap-sect{
+    display: inline-flex;
+    gap: 30px;
+}
+.section-four-wrap-three {
+    width: 570px;
+    height: 290px;
+    background: #FFF;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+    padding: 48px;
+}
+.un {
+    box-shadow: none;
+}
+.sect-four-wrap-three-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.41;
+    margin-bottom: 16px;
+}
+.sect-four-wrap-three-text {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.41;
+    height: 72px;
+    margin-bottom: 16px;
+}
+.sect-four-wrap-three-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.41;
+}
+.sect-four-wrap-two-link:hover,
+.sect-four-wrap-two-link:focus {
+    color: #F7941E;
+}
+.sect-four-wrap-three-link:hover,
+.sect-four-wrap-three-link:focus {
+    color: #F7941E;
+}
+/* ---------FOOTER--------- */
+
+.footer {
+    background-color: #FAFAFA;
+}
+.container {
+}
+.footer-top-list {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 108px;
+}
+.footer-top-item {
+    padding-top: 115px;
+}
+.footer-gap {
+    margin-left: 81px;
+}
+.footer-top-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.41;
+}
+.footer-top-link:focus,
+.footer-top-link:hover {
+    color: #F7941E;
+}
+.footer-logo {
+    color: #F7941E;
+    text-align: center;
+    font-family: Homemade Apple;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+.footer-line {
+    position: absolute;
+    width: 1000px;
+    height: 1px;
+    background-color: #000;
+    top: 188px;
+    left: 220px;
+}
+.footer-top-logo {
+}
+.footer-soc-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+.footer-soc-item {
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    fill: #F7941E;
+}
+.footer-soc-icon {
+}
+.footer-text-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+}
+.footer-text {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.41;
+    padding-bottom: 35px;
 }
